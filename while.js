@@ -64,15 +64,15 @@ const prompt = require('prompt-sync')()
 // }
 
 
-// rock paper scissor where c is computer and m is user
-let p1 = prompt("player 1:");
-let p2 = prompt("Player 2:");
-if((p1=="scissors" && p2=="rock")||(p1=="rock" && p2=="paper")||(p1=="paper" && p2=="scissors")||(p1==3 && p2==1)||(p1==1 && mp2==2)||(p1==2 && p2==3)){
-        console.log("p2 wins")
-}else if((p1=="paper" && p2=="rock")||(p1=="scissors" && p2=="paper")||(p1=="rock" && p2=="scissors")||(p1==2 && p2==1)||(p1==3 && p2==2)||(p1==1 && p2==3)){
-        console.log("p1 wins")
-} else if((p2=="scissors" && p1=="scissors")||(p2=="rock" && p1=="rock")||(p2=="paper" && p1=="paper")||(p2==3 && p1==3)||(p2==1 && p1==1)||(p2==2 && p1==2)){
-        console.log("draw")
-}else{
-        console.log("wrong input")
-}
+// // rock paper scissor where c is computer and m is user
+// let p1 = prompt("player 1:");
+// let p2 = prompt("Player 2:");
+// if((p1=="scissors" && p2=="rock")||(p1=="rock" && p2=="paper")||(p1=="paper" && p2=="scissors")||(p1==3 && p2==1)||(p1==1 && mp2==2)||(p1==2 && p2==3)){
+//         console.log("p2 wins")
+// }else if((p1=="paper" && p2=="rock")||(p1=="scissors" && p2=="paper")||(p1=="rock" && p2=="scissors")||(p1==2 && p2==1)||(p1==3 && p2==2)||(p1==1 && p2==3)){
+//         console.log("p1 wins")
+// } else if((p2=="scissors" && p1=="scissors")||(p2=="rock" && p1=="rock")||(p2=="paper" && p1=="paper")||(p2==3 && p1==3)||(p2==1 && p1==1)||(p2==2 && p1==2)){
+//         console.log("draw")
+// }else{
+//         console.log("wrong input")
+// }
