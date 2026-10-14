@@ -203,18 +203,15 @@
 // }
 
 // // reverce the digit givinby user
-// const prompt = require('prompt-sync')();
-// let n = Number(prompt("Enter a number: "));
-// while (n > 0) {
-//     let digit = n % 10;
-//     console.log(digit);
-//     n = Math.floor(n / 10);
-// }
-
-// // find how many times 5 occers in user number
 // const prompt = require('prompt-sync')()
 // let n = Number(prompt("Enter a number: "))
-// let count = 0
+// let rev = 0
+// while (n > 0) {
+//     let digit = n % 10;
+//     rev = rev * 10 + digit
+//     console.log(rev);
+//     n = Math.floor(n / 10);
+// }
 
 // while (n > 0) {
 //     let digit = n % 10
@@ -224,3 +221,4 @@
 //     n = Math.floor(n / 10)
 // }{
 // console.log("Number of 5s =", count);}
+
