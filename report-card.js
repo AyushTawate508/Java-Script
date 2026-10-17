@@ -3,6 +3,7 @@
 // let studName=prompt("Student Name:")
 // let div=prompt("Division:")
 // let rollNo=Number(prompt("Roll no:"))
+// let pdate=Number(prompt("Passing date:"))
 // let a=Number(prompt("English Marks:"))
 // let b=Number(prompt("Hindi Marks:"))
 // let c=Number(prompt("Marathi Marks:"))
@@ -43,3 +44,9 @@
 // }else{
 //     console.log("Please enter a valid percentage")
 // }
+
+// let price = "499.99"
+// let deliveryCharge = 50
+// let finalBill = parseFloat(price) + deliveryCharge
+// console.log(finalBill)
+// console.log(typeof finalBill)
