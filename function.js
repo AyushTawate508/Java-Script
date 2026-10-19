@@ -66,9 +66,12 @@ const prompt = require('prompt-sync')()
 // function num(age){
 //     if (age<18 && age>=0){
 //         console.log("You cannot vote")
+//     }else if (age<0 && age>150){
+//         console.log("Invalid age")
 //     }else{
 //         console.log("You can vote")
 //     }
 // }
 
 // num(Number(prompt("age:")))
+
