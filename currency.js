@@ -13,9 +13,9 @@ let chf = 0.009;
 let aud = 0.015; 
 let cad = 0.015;
 
-let inr = (Number(prompt("Amount:")))
+let inr = (Number(prompt("Enter amount in INR:")))
 
-let currency = prompt("PLEASE CHOSE AN CURRENCY 1:USD 2:EUR 3:GBP 4:AED ....... :")
+let currency = prompt("PLEASE CHOSE AN CURRENCY (1-11):")
 let convertedAmount=0
 
 if (currency === "1") {
@@ -54,3 +54,4 @@ if (currency === "1") {
 } else {
     console.log("Invalid currency")
 }
+
