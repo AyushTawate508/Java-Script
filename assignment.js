@@ -149,9 +149,9 @@
 //     console.log("Please enter a valid age");
 // }
 
-// // Leap Year
+// // Leap Year                 //((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) 
 // let year = 2020;
-// if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+// if (year % 4 === 0) {
 //     console.log("Year is a leap year");
 // } else {
 //     console.log("Year is not a leap year");
