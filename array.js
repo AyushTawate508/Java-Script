@@ -30,30 +30,28 @@
 //     console.log(fruit)
 // }
 
-// using array for vehicles
+// // using array for vehicles
 
-let vehicles=['car','bus','train','plane','ship']
-    console.log(vehicles)
-    console.log(vehicles.length)
-    console.log(vehicles[2])
-    console.log(vehicles[vehicles.length-3])
-vehicles[2]='truck'
-    console.log(vehicles)
-vehicles.push('train')
-    console.log(vehicles)
-vehicles.pop()
-    console.log(vehicles)
-vehicles.unshift('train')
-    console.log(vehicles)
-vehicles.shift()
-    console.log(vehicles)
-    console.log(vehicles.slice(1,4))
-    console.log(vehicles.splice(1,1))
-for (let i=0;i<=4;i++){
-    console.log(vehicles)
-    }
-for (vehicle of vehicles){
-    console.log(vehicle)
-    }
-
-
+// let vehicles=['car','bus','train','plane','ship']
+//     console.log(vehicles)
+//     console.log(vehicles.length)
+//     console.log(vehicles[2])
+//     console.log(vehicles[vehicles.length-3])
+// vehicles[2]='truck'
+//     console.log(vehicles)
+// vehicles.push('train')
+//     console.log(vehicles)
+// vehicles.pop()
+//     console.log(vehicles)
+// vehicles.unshift('train')
+//     console.log(vehicles)
+// vehicles.shift()
+//     console.log(vehicles)
+//     console.log(vehicles.slice(1,4))
+//     console.log(vehicles.splice(1,1))
+// for (let i=0;i<=4;i++){
+//     console.log(vehicles)
+//     }
+// for (vehicle of vehicles){
+//     console.log(vehicle)
+//     }
