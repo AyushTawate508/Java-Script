@@ -141,34 +141,141 @@
 // }
 
 
-// searching and checking
-let no=[101,200,300,400,500,600,700,800,900,1000]
-    console.log(no.includes(200))
+// // searching and checking
+// let no=[101,200,300,400,500,600,700,800,900,1000]
+//     console.log(no.includes(200))
 
-const name=['ayush','mehtab','rahul','parth']
-    console.log(name.indexOf('rahul'))
+// const name=['ayush','mehtab','rahul','parth']
+//     console.log(name.indexOf('rahul'))
 
-let no1=no.find(no => no>100)
-console.log(no1)
+// let no1=no.find(no => no>100)
+// console.log(no1)
 
-console.log(no.findIndex(no => no%5==0))
+// console.log(no.findIndex(no => no%5==0))
 
-let result=[
-    {name:"ayush",marks:77},
-    {name:"yash",marks:85},
-    {name:"raj",marks:90},
-    {name:"rahul",marks:97}
-]
-console.log(result.some(result => result.marks>90))
+// let result=[
+//     {name:"ayush",marks:77},
+//     {name:"yash",marks:85},
+//     {name:"raj",marks:90},
+//     {name:"rahul",marks:97}
+// ]
+// console.log(result.some(result => result.marks>90))
 
-console.log(result.every(result => result.marks>50))
+// console.log(result.every(result => result.marks>50))
 
-let products=[
-    {item:"bag",price:'₹600'},
-    {item:"watch",price:'₹285'},
-    {item:"charger",price:'₹790'},
-    {item:"wallet",price:'₹920'}
-]
-let product = products.find(item => item.price<'₹500')
-    console.log(product)
-    console.log(products.indexOf("watch"))
+// let products=[
+//     {item:"bag",price:'₹600'},
+//     {item:"watch",price:'₹285'},
+//     {item:"charger",price:'₹790'},
+//     {item:"wallet",price:'₹920'}
+// ]
+// let product = products.find(item => item.price<'₹500')
+//     console.log(product)
+
+// // Array transformation
+// let no=[1,2,3,4]
+// let double=no.map(no => no*2)
+// console.log(double)
+
+// const name=['ayush','mehtab','rahul','parth']
+// let upperCaseNames=name.map(name => name.toUpperCase())
+// console.log(upperCaseNames)
+
+// let evenNo=no.filter(no => no%2==0)
+// console.log(evenNo)
+
+// let result=[
+//     {name:"ayush",marks:57},
+//     {name:"yash",marks:35},
+//     {name:"raj",marks:20},
+//     {name:"rahul",marks:37}
+// ]
+// let score=result.filter(result => result.marks>=40)
+// console.log(score)
+
+// let products=[
+//     {item:"bag",price:600},
+//     {item:"watch",price:1285},
+//     {item:"charger",price:790},
+//     {item:"wallet",price:920}
+// ]
+// let material=products.filter(products => products.price<1000)
+// console.log(material)
+
+// let total=no.reduce((sum,no) =>{return sum+no})
+// console.log(total)
+
+// let shoppingCart=[
+//     {name:"bag",price:600},
+//     {name:"watch",price:1285},
+//     {name:"charger",price:790},
+//     {name:"wallet",price:920}
+// ]
+// let total=shoppingCart.reduce((sum,item) =>{return sum+item.price},0)
+// console.log(total)
+
+// let result=[
+//     {name:"ayush",marks:57},
+//     {name:"yash",marks:35},
+//     {name:"raj",marks:20},
+//     {name:"rahul",marks:37}
+// ]
+// result.forEach((student)=>{
+//     console.log(student.name,student.marks)
+// })
+
+// let discount=shoppingCart.map(shoppingCart => shoppingCart.price*0.10)
+// console.log(discount)
+
+// let cart=shoppingCart.map(shoppingCart => shoppingCart.price*0.90)
+// console.log(cart)
+
+
+// let carts=shoppingCart.filter(shoppingCart => shoppingCart.price<2000).map(shoppingCart => shoppingCart.price*2)
+// console.log(carts)
+
+
+// let shop=shoppingCart.reduce((count,item)=>{return count+1},0)
+// console.log(shop)
+
+// let result=[
+//     {name:"ayush",marks:67},
+//     {name:"yash",marks:35},
+//     {name:"raj",marks:70},
+//     {name:"rahul",marks:54}
+// ]
+// let total=result.filter(student => student.marks>60).reduce((sum,student) => {return sum+student.marks},0)
+// console.log(total)
+
+// array, modification and sorting
+// let no=[1,2,3,4,5,6,7,8]
+// console.log(no.slice(0,3))
+// console.log(no.slice(5,8))
+// console.log(no.splice(2,2))
+// console.log(no)
+// console.log(no.splice(2,0,9))
+// console.log(no)
+// console.log(no.splice(2,1,9))
+// console.log(no)
+
+// let name=['ayush','mehtab','rahul','parth']
+// name.sort()
+// console.log(name)
+
+// let no=[3,1,7,4,2,9]
+// no.sort((a,b)=>a-b)
+// console.log(no)
+// no.sort((a,b)=>b-a)
+// console.log(no)
+
+// let result=name.join(",")
+// console.log(name)
+
+let numbers = [10, 20, 30, 40, 50]
+let result = numbers.slice(1, 4);
+console.log(result)
+console.log(numbers) 
+
+let fruit = ['apple','mango','orange']
+fruit.splice(1,1)
+console.log(fruit)
