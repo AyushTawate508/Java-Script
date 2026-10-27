@@ -271,11 +271,86 @@
 // let result=name.join(",")
 // console.log(name)
 
-let numbers = [10, 20, 30, 40, 50]
-let result = numbers.slice(1, 4);
-console.log(result)
-console.log(numbers) 
+// let numbers = [10, 20, 30, 40, 50]
+// let result = numbers.slice(1, 4);
+// console.log(result)
+// console.log(numbers) 
 
-let fruit = ['apple','mango','orange']
-fruit.splice(1,1)
-console.log(fruit)
+// let fruit = ['apple','mango','orange']
+// fruit.splice(1,1)
+// console.log(fruit)
+
+// // even and odd
+// let num=[0,1,2,3,4,5,6,7,8,9,10]
+// let evenCount=0
+// let oddCount=0
+// for (let i=0;i<num.length;i++){
+//     if(num[i]%2===0){
+//         evenCount++
+//         console.log("total number of even number:",evenCount)
+//     }else{
+//         oddCount++
+//         console.log("total number of odd number:",oddCount)
+//     }
+// }
+
+// // positive ,negative and zero
+// let num=[-5,0,-6,2,0,-7,4,-3,-1,0,1,6,-11,0]
+// let positiveCount=0
+// let negativeCount=0
+// let zeroCount=0
+// for (let i=0 ; i<num.length ; i++){
+//     if (num[i]<0){
+//         negativeCount++
+//         console.log("total number of negative number:",negativeCount)
+//     }else if(num[i]==0){
+//         zeroCount++
+//         console.log("total number of zeros:",zeroCount)
+//     }else{
+//         positiveCount++
+//         console.log("total number of poitive number:",positiveCount)
+//     }
+// }
+
+// let result=[
+//     {name:"ayush",marks:67},          
+//     {name:"yash",marks:35},             
+//     {name:"raj",marks:70},
+//     {name:"rahul",marks:54}
+// ]
+// for(let i=0;i<result.length;i++){
+//     if (result[i].marks>=40){
+//         console.log("pass:",result[i].name,",",result[i].marks)
+//         console.log("i:", i, "result[i]:", result[i]);
+//     }else{
+//         console.log("Fail:",result[i].name,",",result[i].marks)
+//     }
+// }
+
+// let num=[1,2,3,4,5,6,7,8,9]
+// let largestNo=[0]
+// for(let i=0;i<num.length;i++){
+//     if(num[i]>largestNo)
+//     {
+//         largestNo=num[i]
+//     }
+// }
+// console.log("langest number is:",largestNo)
+
+// let num=[1,2,3,4,5,6,7,8,9]
+// let smallestNo = num[0]
+// for (let i = 0; i < num.length; i++) {
+//     if (num[i] < smallestNo) {
+//         smallestNo = num[i]
+//     }
+// }
+// console.log("Smallest number is:", smallestNo)     ///let evenNumbers = num.filter(n => n % 2 === 0);
+
+// let num=[1,2,3,4,5,6,7,8,9] 
+// let totalOfeven=0
+// for(let i=0;i<num.length;i++){
+//     if(num[i]%2===0){
+//         console.log("even:",num[i])
+//         totalOfeven += num[i]
+//     console.log("total of even numbers:",totalOfeven)}
+// }
